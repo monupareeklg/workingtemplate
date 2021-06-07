@@ -23,6 +23,10 @@ input[type="email"] {
     margin-bottom: 20px;
 }
 
+span {
+    font-size: 13px;
+}
+
 .row {
     margin-right: 0 !important;
 }
@@ -46,6 +50,7 @@ input[type="email"] {
 
 .form-control-1 {
     width: 100%;
+    padding: .375rem .75rem;
 }
 
 .form-control-1:focus {
@@ -120,9 +125,22 @@ p {
 }
 
 .terms-service-1 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .terms {
     font-size: 13px;
+}
+
+.form-control-2:focus {
+    border-color: #fff !important;
+}
+
+.register-btn {
+    background-color: #2f5d62 !important;
+    color: #fff !important;
+    border: none !important;
+    width: 40% !important;
+    border-radius: 2px !important;
+    margin-right: 8%;
 }

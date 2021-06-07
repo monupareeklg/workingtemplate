@@ -222,7 +222,9 @@ form {
     color: #fff;
 
 }
+/* Ending of Footer Section */
 
+/* Page Extra Sections */
 ::selection {
     color: white;
     background: #2f5d62;
@@ -231,3 +233,4 @@ form {
 ::placeholder {
     color: #2f5d62 !important;
 }
+/* Ending of Page Extra Section */

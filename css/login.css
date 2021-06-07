@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
 
 input[type="text"] {
     border-radius: 0 !important;
@@ -8,6 +10,13 @@ input[type="text"] {
 }
 
 input[type="password"] {
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #ced4da !important;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
     border-radius: 0 !important;
     border: none !important;
     border-bottom: 1px solid #ced4da !important;
@@ -84,4 +93,36 @@ a {
 
 p {
     color: #2f5d62 !important;
+    font-weight: 700;
+}
+
+/* Register Page */
+.register-page {
+    text-align: center ;
+    background-color: #fff;
+    padding: 0% 7% 0% 7% !important;
+}
+
+.btn-outline-primary-1 {
+    margin-bottom: 35px !important;
+}
+
+.logo-img-1 {
+    width: 25%;
+}
+.login-btn-div-1 {
+    margin-bottom: 0 !important;
+    margin-top: 20px;
+}
+
+.my-form {
+    padding: 10px !important;
+}
+
+.terms-service-1 {
+    margin-bottom: 5px;
+}
+
+.terms {
+    font-size: 13px;
 }

@@ -41,7 +41,7 @@ span {
 .form-page {
     text-align: center ;
     background-color: #fff;
-    padding: 5% 7% 0% 7% !important;
+    padding: 4% 7% 0% 7% !important;
 }
 
 .logo-img {
@@ -57,10 +57,13 @@ span {
     outline: none;
 }
 
+.my-form-2 {
+    margin-bottom: 6px;
+}
+
 form {
     width: 75%;
     margin: 0 auto;
-    margin-bottom: 12px;
 }
 
 .login-btn-div {
@@ -122,6 +125,7 @@ p {
 
 .my-form {
     padding: 10px !important;
+    margin-bottom: 12px;
 }
 
 .terms-service-1 {

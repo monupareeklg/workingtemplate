@@ -5,21 +5,21 @@ body {
 input[type="text"] {
     border-radius: 0 !important;
     border: none !important;
-    border-bottom: 1px solid #ced4da !important;
+    border-bottom: 1px solid black !important;
     margin-bottom: 20px;
 }
 
 input[type="password"] {
     border-radius: 0 !important;
     border: none !important;
-    border-bottom: 1px solid #ced4da !important;
+    border-bottom: 1px solid black !important;
     margin-bottom: 20px;
 }
 
 input[type="email"] {
     border-radius: 0 !important;
     border: none !important;
-    border-bottom: 1px solid #ced4da !important;
+    border-bottom: 1px solid black !important;
     margin-bottom: 20px;
 }
 
@@ -155,4 +155,13 @@ p {
 .e-a {
     color: #2f5d62;
     font-weight: 600;
+}
+
+
+/*Some Extra Code */
+
+::placeholder {
+    color: black !important;
+    font-weight: 600;
+
 }
